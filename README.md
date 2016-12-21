@@ -10,4 +10,5 @@ execute again
 # TODO
 1. Complete the function for receieve the value of encoders.
 2. Compelet the basic motion controllor for differential wheel.
-3. intergate with ROS  and release as the ROS package.
+3. Use wirless joystick to control the wheel on ROS
+4. intergate with ROS  and release as the ROS package.
