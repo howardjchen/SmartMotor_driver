@@ -24,23 +24,23 @@ int main()
     	return 0;
   	}
   	
-  	//addressing(5,cport_nr);
-	//only the first need address(power led ir red)
-
-	initiallize(cport_nr);
-	//run();
-	
 	printf("press any key to start");
 	getchar();
-	setposition(5,-2000);
-	setposition(4,3000);
-	//setposition(3,-50000);
+	//setposition(5,-5000);
+	//setposition(4,3000);
+	setposition(3,-450000);
+
+	//printf("press any key to start");
+	//getchar();
+	//setposition(5,3000);
+	//setposition(4,-3000);
+	//setposition(3,-30000);
 	
 	printf("press any key to stop!");
 	getchar();
-	setposition(5,0);
-	setposition(4,0);
-	//setposition(3,0);
+	//setposition(5,0);
+	//setposition(4,0);
+	setposition(3,0);
 	//setvelocity(2,100000);
 	//setvelocity(1,100000);
 	
@@ -81,4 +81,5 @@ int main()
   	
 	return 0;
 }
+
 
